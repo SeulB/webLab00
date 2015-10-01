@@ -1,0 +1,15 @@
+.weeklyplan {
+	border: 5px thick solid;
+	border-color: green;
+}
+
+.heading {
+	border: 5px thick solid;
+	border-color: red;
+}
+
+.todo {
+	border: 5px thick solid;
+	border-color: blue;
+}
+
