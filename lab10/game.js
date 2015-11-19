@@ -66,6 +66,10 @@ function stopGame(){
 			blocks[i].addClassName("normal");
 		}
 	}
+
+	for (var i = 0; i < numberOfBlocks; i++){
+			blocks[i].stopObserving("click");
+	}
 }
 
 function startToCatch(){
